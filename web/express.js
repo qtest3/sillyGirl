@@ -11,7 +11,7 @@ app.get("/", (req, res) => {
      res.render(
           "hello.html",// 模版文件目录 /etc/sillyGirl/views
           {
-               title: "世界，你好。", data: {
+               title: "didi你好。", data: {
                     text: "Hello world!",
                     image: "assets/test.jpeg",// 静态文件目录 /etc/sillyGirl/assets
                }
